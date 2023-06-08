@@ -27,7 +27,7 @@ function Banner() {
             </div>
 
             <div class="div-below-banner">
-                <h1>This is a test</h1>
+                <h3>We are currently developing this landing page, this section will have something interesting for sure.</h3>
             </div>
             
         </>

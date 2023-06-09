@@ -6,6 +6,7 @@
     /* background-color: rgb(238, 216, 255); */
     /* background-color: rgb(253, 240, 255); */
     width: 100%;
+    z-index: 5;
     height: 3.2rem;
     position: fixed;
     display: flex;
@@ -20,6 +21,7 @@
 }
 
 .navbar-scrol {
+    z-index: 10;
     transition: 0.5s;
     background-color: rgb(253, 240, 255);
 }

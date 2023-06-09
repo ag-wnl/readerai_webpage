@@ -1,10 +1,11 @@
 import './styles.css';
-import banner1 from './images/readerai_laptop.png';
-import banner2 from './images/banner_2.png';
+
 import laptop_screen from './images/laptop_screen.gif'
 import highlighted from './images/highlight_img.png'
 import textassist from './images/text_assist.png'
 import notes from './images/note_marker.png'
+import highq from './images/highq_vid.mp4';
+import laptop_stat from './images/laptop_static.png'
 
 //This is the landing Page content.
 
@@ -24,8 +25,9 @@ function Banner() {
                     <button class="add-readerai-button">Add Reader.ai to Chrome</button>
                 </div>
 
-                <div>
-                    <img class="banner-img" src={laptop_screen}></img>
+                <div class="container">
+                    <img class="banner-img" src={laptop_stat}></img>
+                    <video class="banner-vid" src={highq} autoPlay loop muted/>
                 </div>
 
             </div>

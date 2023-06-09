@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200&display=swap');
 
+/* to check overflow: outline: solid 1px red; */
 
 .navbar {
     /* background-color: rgb(238, 216, 255); */
@@ -8,14 +9,11 @@
     height: 3.2rem;
     position: fixed;
     display: flex;
-    padding-left: 20px;
-    padding-right: 20px;
     color: rgb(24, 24, 25);
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     gap: 1rem;
-    padding-right: 50px;
     transition: 0.5s;
     /* box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px */
 
@@ -32,6 +30,7 @@
     flex-direction: row;
     align-items: center;
     gap: 1rem;  
+    padding-left: 20px;
 }
 
 .logo-text {
@@ -39,7 +38,8 @@
 }
 
 .navbar-right {
-    padding-right: 50px;
+    /* padding-right: 50px; */
+    padding-right: 20px;
     align-items: center;
     letter-spacing: 0.5px;
     font-family: sans-serif;
@@ -47,6 +47,7 @@
     color: #262527;
     display: flex;
     flex-direction: row;
+    justify-content: right;
     gap: 1.5rem;
 }
 
@@ -57,11 +58,33 @@
     word-spacing: 3px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+}
+
+.container {
+    position: relative;
 }
 
 .banner-img {
+    position: relative;
     width: 664px;
     height: 499px;
+    z-index: 1;
+}
+
+.banner-vid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 3.7rem;
+    padding-left: 7.3rem;
+    /* width: 664px;
+    height: 499px; */
+    width: 440px;
+    height: 256px;
+    z-index: 2;
+    /* border: 1px solid purple; */
+    /* box-shadow: rgba(45, 35, 66, 0.4) 0 5px 8px,rgba(45, 35, 66, 0.3) 0 10px 17px -7px */
 }
 
 .banner-text {
@@ -103,6 +126,7 @@
 .footer-div {
     /* background-color: rgb(193, 128, 255); */
     background-color: #4c2e67;
+    width: screen;
     color: white;
     height: 200px;
     border: none;
@@ -127,4 +151,50 @@
 
 .low-div-img {
     border-radius: 10px;
+}
+
+@media (max-width: 1000px) {
+
+    .navbar {
+        width: 100%;
+    }
+
+    .navbar-right {
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 0px;
+        gap: 1rem;
+    }
+
+
+    .banner-img {
+        display: none;
+    }
+
+    .banner-vid {
+        display: none;
+    }
+
+    .low-div-img {
+        padding: 0;
+        margin: 0;
+        gap:0;
+        width: 100%;
+    }
+
+    .lower-div {
+        padding-left: 0;
+        padding-right: 0;
+        padding: 0;
+        margin: 0;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .div-below-banner{
+        padding: 3rem;
+        gap: 4rem;
+    }
 }

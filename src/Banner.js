@@ -1,15 +1,16 @@
 import './styles.css';
 
 import laptop_screen from './images/laptop_screen.gif'
-import highlighted from './images/highlight_img.png'
-import textassist from './images/text_assist.png'
-import notes from './images/note_marker.png'
+import highlighted from './images/highlight_banner.png'
+import textassist from './images/text_assist_banner.png'
+import notes from './images/notes_banner.png'
 import highq from './images/highq_vid.mp4';
 import laptop_stat from './images/laptop_static.png'
 
 //This is the landing Page content.
 
 function Banner() {
+
     return (
         <>
 
@@ -17,7 +18,7 @@ function Banner() {
 
                 <div class="banner-text">
                     <h1>Keep your notes Organized and your eyes on what’s Important.</h1>
-
+                    
                     <p>
                         Focus on text that's really important. Get explaination for the terms that confuse you and take notes as you read, <b>Reader.ai</b> will organize them.
                     </p>

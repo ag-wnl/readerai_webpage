@@ -1,6 +1,7 @@
 // import { useState } from 'react/cjs/react.production.min';
 import { useState } from 'react';
 import './styles.css';
+import { Link } from "react-router-dom";
 
 function Navbar() {
 
@@ -17,7 +18,8 @@ function Navbar() {
 
     return (
         <div class={color ? 'navbar navbar-scrol' : 'navbar'}>
-            <a class="logo-title">
+            <Link to='/' class="link">
+                <a class="logo-title">
                 <img
                 width="40px"
                 height="40px" 
@@ -25,13 +27,13 @@ function Navbar() {
                 <h2 class="logo-text">
                     Reader.ai
                 </h2>    
-            </a>
+            </a></Link>
             
 
             <div class="navbar-right">
-                <a>Features</a>
-                <a>About</a>
-                <a>FAQ</a>
+                <a><Link to='/features' class='link'>Features</Link></a>
+                <a><Link to='/about' className='link'>About</Link></a>
+                <a><Link to='/FAQ' class='link'>FAQ</Link></a>
             </div>
         </div>
 

@@ -1,14 +1,9 @@
 import './styles.css';
 
-import laptop_screen from './images/laptop_screen.gif'
-import highlighted from './images/highlight_banner.png'
-import textassist from './images/text_assist_banner.png'
-import notes from './images/notes_banner.png'
-import highq from './images/highq_vid.mp4';
-import laptop_stat from './images/laptop_static.png'
 import noteSvg from './images/notes_svg.svg'
 import highlightSvg from './images/highlight_banner_svg.svg'
 import textassistSvg from './images/text_assist_svg.svg'
+import banner_img from './images/banner_img.svg'
 
 //This is the landing Page content.
 
@@ -30,8 +25,7 @@ function Banner() {
                 </div>
 
                 <div class="container">
-                    <img class="banner-img" src={laptop_stat}></img>
-                    <video class="banner-vid" src={highq} autoPlay loop muted/>
+                    <img class="banner-img" src={banner_img}></img>
                 </div>
 
             </div>

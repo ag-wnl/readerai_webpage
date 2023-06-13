@@ -1,3 +1,4 @@
+import Footer from "../Footer";
 import Navbar from "../Navbar";
 
 
@@ -22,14 +23,15 @@ function About() {
                     ReaderAI is constantly evolving and improving. We are currently developing NLP models to further enhance your reading experience. These cutting-edge models will enable even faster and more convenient access to information, taking our already exceptional features to the next level.
                     <br></br>
                     <br></br>
-                    Join us on this journey of transforming the way you read online. Experience the power of ReaderAI and unlock your true reading potential. Say goodbye to information overload and hello to an optimized reading experience tailored just for you.
+                    Join us on this journey of transforming the way you read online. Experience the power of ReaderAI and unlock your true reading potential. Say goodbye to information overload and hello to an optimized reading experience tailored just for you. 
                     <br></br>
                     <br></br>
                     Happy reading!
                     <br></br>
-                    The ReaderAI Team</p>
+                    <b>The ReaderAI Team</b></p>
                 </div>
             </div>
+            <Footer />
         </>
     )
 }

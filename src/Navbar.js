@@ -2,6 +2,10 @@
 import { useState } from 'react';
 import './styles.css';
 import { Link } from "react-router-dom";
+// import noteSvg from './images/notes_svg.svg'
+import readerai_logo from './images/readerai_logo.svg'
+
+// "https://i.imgur.com/MLvNKeW.png"
 
 function Navbar() {
 
@@ -21,11 +25,11 @@ function Navbar() {
             <Link to='/' class="link">
                 <a class="logo-title">
                 <img
-                width="40px"
-                height="40px" 
-                src="https://i.imgur.com/MLvNKeW.png"></img>
+                width="35px"
+                height="35px" 
+                src={readerai_logo}></img>
                 <h2 class="logo-text">
-                    Reader.ai
+                    ReaderAI
                 </h2>    
             </a></Link>
             

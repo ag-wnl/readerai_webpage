@@ -18,10 +18,10 @@ function Banner() {
                     <h1>Keep your notes Organized and your eyes on what’s Important.</h1>
                     
                     <p>
-                        Focus on text that's really important. Get explaination for the terms that confuse you and take notes as you read, <b>Reader.ai</b> will organize them.
+                        Focus on text that's really important. Get explaination for the terms that confuse you and take notes as you read, <b>ReaderAI</b> will organize them.
                     </p>
 
-                    <button class="add-readerai-button">Add Reader.ai to Chrome</button>
+                    <button class="add-readerai-button">Add ReaderAI to Chrome</button>
                 </div>
 
                 <div class="container">

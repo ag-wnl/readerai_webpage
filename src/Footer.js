@@ -1,4 +1,5 @@
 import './styles.css'
+import { Link } from "react-router-dom";
 
 function Footer() {
     return(
@@ -8,12 +9,12 @@ function Footer() {
             <div class="footer-div">
                 
                 <div>
-                    <h3>Reader.ai</h3>   
+                    <h3><Link to='/' class="link-white">Reader.ai</Link></h3>   
                 </div>
 
-                <div>Features</div>
+                <div><Link to='/features' class='footer-div'>Features</Link></div>
 
-                <div>FAQs</div>
+                <div><Link to='/FAQ' class='footer-div'>FAQs</Link></div>
 
                 <div>Contact Us</div>
 

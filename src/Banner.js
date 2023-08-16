@@ -15,20 +15,24 @@ function Banner() {
             <div class="banner-div">
                 
                 <div class="banner-text">
-                    <h1>Keep your notes Organized and your eyes on what’s Important.</h1>
-                    <Typewriter
-                        onInit={(typewriter) => {
-                            typewriter
-                                .typeString("Utilize the power of a Large-Language-Model to make your web browsing more efficient.")
-                                .pauseFor(1000)
-                                .deleteAll()
-                                .typeString("Annotate web pages with just a click!")
-                                .pauseFor(1000)
-                                .deleteAll()
-                                .typeString("Let ReaderAI organize everything for you.")
-                                .start();
-                        }}
-                    />
+                    <h1>Keep Your Notes Organized and Your Eyes on What’s Important.</h1>
+                    
+                    <div class='typewriter'>
+                        <Typewriter
+                            onInit={(typewriter) => {
+                                typewriter
+                                    .typeString("Utilize the power of Deep Learning to make your web browsing efficient.")
+                                    .pauseFor(1000)
+                                    .deleteAll()
+                                    .typeString("Annotate web pages with just a click!")
+                                    .pauseFor(1000)
+                                    .deleteAll()
+                                    .typeString("Let ReaderAI organize everything for you.")
+                                    .start();
+                            }}
+                        />
+                    </div>
+        
                     <p>
                         Focus on text that's really important. Get explaination for the terms that confuse you and take notes as you read, <b>ReaderAI</b> will organize them.
                     </p>
@@ -45,14 +49,14 @@ function Banner() {
 
             <div class="div-below-banner">
                 <div class='lower-div'>
-                    <p><b>Auto-Highlights</b> texts which lead to the most important extracts from the text</p>
+                    <p><b>Auto-Highlights</b> the most important text content in the text</p>
 
                     <img class="low-div-img" src={highlightSvg}></img>
                 </div>
 
                 <div class='lower-div'>
  
-                    <p>Get defination pronounciation of words, explaination for terms which you're curious about just by selecting it and clicking on the <b>Text-assist button</b>.</p>
+                    <p>Get defination, pronounciation of words, explaination for terms that are confusing just by selecting it and clicking on the <b>Text-assist button</b>.</p>
 
                     <img class="low-div-img" src={textassistSvg}></img>
 

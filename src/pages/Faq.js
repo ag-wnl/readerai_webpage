@@ -11,7 +11,7 @@ function Faq() {
                 <div>
                     <h4>Does ReaderAI store/use my data?</h4>
                     <p>
-                        ReaderAI does not use your data for any purpose. We respect the privacy of of users and do not use data from user notes or monitor the features being used by the user for any purpose. 
+                        ReaderAI does not use your data for any purpose other than to provide you the functionalities of the browser extension. 
                     </p>
                 </div>
 

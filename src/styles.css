@@ -75,6 +75,16 @@
     gap: 1.5rem;
 }
 
+.navbar-right a:hover{
+    transition: 0.3s;
+    color: #4c2e67;
+;
+}
+
+.typewriter {
+    font-weight: bold;
+}
+
 
 .banner-div {
     background: radial-gradient(#f9f7ff 15%, transparent 16%), linear-gradient(45deg, transparent 49%, #f9f7ff 49% 51%, transparent 51%), linear-gradient(-45deg, transparent 49%, #f9f7ff 49% 51%, transparent 51%);
@@ -134,7 +144,7 @@
 .add-readerai-button {
     margin-top: 2rem;
     font-family: 'Plus Jakarta Sans', sans-serif;
-    background-color: rgb(185, 99, 251);
+    background-color: rgb(208, 85, 245);
     color: rgb(255, 255, 255);
     font-weight: bolder;
     border: none;
@@ -142,19 +152,20 @@
     padding: 12px;
     cursor: pointer;
     transition: 1s;
-    
 }
 
 .add-readerai-button:hover {
     transition: 1s;
     background-color: rgb(168, 72, 241);
+    box-shadow: 0 8px 15px #ff7cda;
+;
 }
 
 .div-below-banner {
     width: screen;
     margin-top: 3rem;
     padding: 4rem;
-    background-color: rgb(235, 213, 255);
+    background-color: rgb(255, 255, 255);
     color: black;
     display: flex;
     flex-direction: column;

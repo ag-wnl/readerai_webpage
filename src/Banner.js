@@ -3,20 +3,32 @@ import './styles.css';
 import noteSvg from './images/notes_svg.svg'
 import highlightSvg from './images/highlight_banner_svg.svg'
 import textassistSvg from './images/text_assist_svg.svg'
-import banner_img from './images/banner_img.svg'
-
+import banner_img from './images/readerai_banner.svg'
+import React from 'react';
+import Typewriter from "typewriter-effect";
 //This is the landing Page content.
 
 function Banner() {
 
     return (
         <>
-
             <div class="banner-div">
-
+                
                 <div class="banner-text">
                     <h1>Keep your notes Organized and your eyes on what’s Important.</h1>
-                    
+                    <Typewriter
+                        onInit={(typewriter) => {
+                            typewriter
+                                .typeString("Utilize the power of a Large-Language-Model to make your web browsing more efficient.")
+                                .pauseFor(1000)
+                                .deleteAll()
+                                .typeString("Annotate web pages with just a click!")
+                                .pauseFor(1000)
+                                .deleteAll()
+                                .typeString("Let ReaderAI organize everything for you.")
+                                .start();
+                        }}
+                    />
                     <p>
                         Focus on text that's really important. Get explaination for the terms that confuse you and take notes as you read, <b>ReaderAI</b> will organize them.
                     </p>
@@ -27,6 +39,7 @@ function Banner() {
                 <div class="container">
                     <img class="banner-img" src={banner_img}></img>
                 </div>
+                
 
             </div>
 
